@@ -22,6 +22,11 @@ jobs:
       - name: Build web assets
         run: node build.js
       
+      # This is the new step to generate your app icons
+      - name: Generate Icons
+        run: |
+          npx @capacitor/assets generate --android
+      
       - name: Add Android
         run: |
           npx cap add android
