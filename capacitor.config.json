@@ -10,16 +10,4 @@
     "allowMixedContent": true,
     "webContentsDebuggingEnabled": false
   }
-}{
-  "appId": "com.alsmartpos.app",
-  "appName": "AL SmartPOS",
-  "webDir": "src",
-  "bundledWebRuntime": false,
-  "server": {
-    "androidScheme": "https"
-  },
-  "android": {
-    "allowMixedContent": true,
-    "webContentsDebuggingEnabled": false
-  }
 }
